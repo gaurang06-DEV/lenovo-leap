@@ -1,61 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Climate Action: Our Collective Future</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Protecting Goa’s Coast</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <header class="page-header">
-        <h1>Climate Action: Our Collective Future</h1>
-        <p>
-            Welcome to this page dedicated to understanding and acting on climate change.
-            Learn about various aspects of climate action and how you can contribute to a sustainable future.
-        </p>
+    <header>
+    <h1>Protecting Goa's Coast</h1>
+    <p>Together for a climate-resilient future</p>
+    <nav>
+        <button onclick="location.href='#facts'">Facts</button>
+        <button onclick="location.href='#map'">Map</button>
+        <button onclick="location.href='#gallery'">Gallery</button>
+        <button onclick="location.href='#action'">Take Action</button>
+    </nav>
     </header>
 
-    <section class="cards-section">
+    <div id="facts" class="facts">
+    <h2>Climate Facts in Goa</h2>
+    <div class="fact-cards">
+        <div class="card">🌡️ Average temperatures in Goa have risen by 1.2°C in recent decades</div>
+        <div class="card">🌴 Mangrove forests protect coasts but are under constant threat</div>
+        <div class="card">🐠 Coral reefs & marine life face risk from rising sea levels</div>
+    </div>
+    </div>
 
-        <div class="card">
-            <img src="https://www.devb.gov.hk/filemanager/en/content_1044/20240915_17L.jpg" alt="Renewable Energy">
-            <div class="card-content">
-                <h2>Renewable Energy</h2>
-                <p>Transitioning to renewable energy sources like solar and wind power is crucial to reduce greenhouse gas emissions and combat climate change effectively.</p>
-                <a href="#" class="button">Learn More</a>
-            </div>
-        </div>
 
-        <div class="card">
-            <img src="https://blog.evbox.com/hs-fs/hubfs/EVBox_Troniq%20Modular_Simultaneous%20Charging%20(1).jpg?width=1400&height=1102&name=EVBox_Troniq%20Modular_Simultaneous%20Charging%20(1).jpg" alt="Sustainable Transport">
-            <div class="card-content">
-                <h2>Sustainable Transport</h2>
-                <p>Promoting public transport, cycling, walking, and electric vehicles helps decrease carbon emissions from the transportation sector.</p>
-                <a href="#" class="button">Read More</a>
-            </div>
-        </div>
+  <div id="map" class="map-section">
+    <h2>Vulnerable Coastal Areas</h2>
+    <img src="images/riskimage.png" alt="Risk rating map of Goa’s coast">
+  </div>
 
-        <div class="card">
-            <img src="https://www.edmonton.ca/sites/default/files/public-files/feature-images/SortingBinsMainPhoto2.jpg" alt="Waste Reduction">
-            <div class="card-content">
-                <h2>Waste Reduction</h2>
-                <p>Minimizing waste through recycling, composting, and reducing consumption lessens the environmental impact and conserves resources.</p>
-                <a href="#" class="button">Get Involved</a>
-            </div>
-        </div>
+  <div id="gallery" class="gallery">
+    <h2>Gallery</h2>
+    <div class="slider">
+      <img src="https://static.toiimg.com/thumb/msid-119871473,width-400,resizemode-4/119871473.jpg">
+      <img src="https://www.tripsavvy.com/thmb/1yFOQKAivAJkk4RagJB0WyoeRQY=/2125x1417/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-592182071-5b3224173418c60036f136ab.jpg">
+      <img src="https://media.istockphoto.com/photos/the-beach-picture-id157579910?k=20&m=157579910&s=612x612&w=0&h=2mk--eELAC90MQa7K3QxUGAs3ibdSSRVjv2mlM3h-BU=">
+      <img src="https://im.whatshot.in/img/2020/Jan/shutterstock-1321441472-cropped-1580207153-1580300957.jpg">
+      <img src="https://www.dealsshutter.com/blog/wp-content/uploads/2020/10/things-to-do-in-north-goa-1024x682.jpg">
+      <img src="https://th.bing.com/th/id/OIP.scFIF3fpVCtUuvjt7jcuFgHaEK?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3">
+    </div>
+    <button class="prev">PREV</button>
+    <button class="next">NEXT</button>
 
-        <div class="card">
-            <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/lush-green-rain-forest-jordan-siemens.jpg" alt="Forest Conservation">
-            <div class="card-content">
-                <h2>Forest Conservation</h2>
-                <p>Protecting and restoring forests is vital as trees absorb carbon dioxide, playing a key role in regulating the Earth's climate and helping with global warming.</p>
-                <a href="#" class="button">Discover More</a>
-            </div>
-        </div>
+  </div>
 
-    </section>
+  <div id="action" class="action">
+    <h2>How You Can Help</h2>
+    <ul>
+      <li>Reduce plastic use & support clean beaches campaigns </li>
+      <li>Join local drives and NGOs to clean Beaches</li>
+      <li>Support local eco-friendly tourism</li>
+      <li>Support local environmental initiatives</li>
+      <li>Spread awareness about climate change</li>
+      <li>Participate in local clean-up events</li>
+    </ul>
+  </div>
 
+  <script src="main.js"></script>
 </body>
 </html>
